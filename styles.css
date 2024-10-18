@@ -10,9 +10,29 @@
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.3;
-  
+    display: flex;
+    align-items: center;
+    gap: 16p;
+  }
+
+  .col-1,.col-2{
+    height: 100vh;
+  }
+
+  .col-1{
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    flex: 2 ;
+    background-position: center;
+  }
+
+  .col-2{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex:3 ;
+  }
+
+  .col-2 div{
+    height: 33vh;
+    text-align: center;
   }
   
